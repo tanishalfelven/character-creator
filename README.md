@@ -4,6 +4,6 @@ This is a simple mithril app that provides a skeleton for creating characters fr
 
 The point of this is to explore components in mithril, you can see in pretty much any `index.js` that all code has been kept pretty small by component-izing everything. 
 
-# Building
+## building
 
 Everything should *just work* if you `npm install` then `npm run start`, which will start a watch job that builds everything with webpack. Open up `index.html` in a browser to view results.
