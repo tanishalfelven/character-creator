@@ -1,0 +1,25 @@
+{
+  "name": "character-creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack src/index.js --output gen/index.js -d --watch"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  },
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "mithril": "^1.1.6",
+    "modular-css-webpack": "^12.0.2",
+    "stylelint": "^9.3.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  }
+}

@@ -1,0 +1,23 @@
+.eyeballtest {
+	fill: blue;
+}
+
+#characterContainer {
+	height: 100%;
+	width: 65%;
+	background: linear-gradient(#636382, #9393a2, #636382);
+}
+
+#character {
+	width: 40%;
+	height: 60%;
+	margin: 20% auto 0;
+}
+
+#shadow {
+	width: 40%;
+	height: 3%;
+	margin: auto;
+	background-color: #424254;
+	border-radius: 80%;
+}

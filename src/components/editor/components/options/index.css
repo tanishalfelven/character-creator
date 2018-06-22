@@ -1,0 +1,21 @@
+.options {
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	padding: 1em;
+	transition: all .3s;
+}
+
+.option {
+	background-color: #33373e;
+	width: 3em;
+	height: 3em;
+	margin-right: .25em;
+	margin-bottom: .25em;
+	
+	cursor: pointer;
+}
+
+.option.selected {
+	box-shadow: 0 0 5px white;
+}
